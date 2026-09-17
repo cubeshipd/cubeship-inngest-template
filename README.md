@@ -127,3 +127,15 @@ start.
 The app is limited to 1 CPU and 1 GiB of memory. Inngest runs 100 queue
 workers by default; raise `limits` in `template.yaml` for heavy workloads, and
 set `INNGEST_QUEUE_WORKERS` to change the count.
+
+---
+
+<!-- cubeship-crosslink -->
+
+## About Cubeship
+
+This is a template for [**Cubeship**](https://github.com/cubeshipd/cubeship) —
+a PaaS you run on your own server: `docker push`, and it is live, with HTTPS,
+a database beside it, and a second machine when one stops being enough.
+
+Browse every template at [cubeship.dev/templates](https://cubeship.dev/templates).
